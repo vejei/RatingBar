@@ -1,0 +1,3 @@
+include ':ratingbar'
+include ':samples'
+rootProject.name = "RatingBar"
