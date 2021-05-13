@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bar_mode="indicative"
+            app:rating_star_count="2.5"/>
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:bar_mode="interactive" />
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:bar_mode="interactive"
+            app:star_count="6"/>
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:bar_mode="interactive"
+            app:star_count="4"/>
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:star_appearance="@style/StarAppearance.Thin.Hollowed"
+            />
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:star_appearance="@style/StarAppearance.Fat"/>
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:star_appearance="@style/StarAppearance.Fat.Hollowed"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layoutDirection="rtl"/>
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            style="@style/RatingBar.Small"/>
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            style="@style/RatingBar.Medium"/>
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:star_appearance="@style/StarAppearance.Thin.Rounded"/>
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:star_appearance="@style/StarAppearance.Thin.Hollowed.Rounded"/>
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:star="@drawable/ic_heart"/>
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:star="@drawable/ic_heart"
+            android:layoutDirection="rtl"/>
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:star="@drawable/ic_stars"/>
+
+        <io.github.vejei.ratingbar.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:star="@drawable/star_layers" />
+
+    </LinearLayout>
+
+</ScrollView>
