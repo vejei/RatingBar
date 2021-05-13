@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="awesome_rating_bar_style" format="reference"/>
+    <attr name="awesome_statistics_view_style" format="reference"/>
+
+    <attr name="star" format="reference"/>
+    <attr name="star_size" format="dimension"/>
+    <attr name="star_margin" format="dimension"/>
+    <attr name="star_tint" format="color"/>
+    <attr name="star_appearance" format="reference"/>
+
+    <declare-styleable name="RatingBar">
+        <attr name="bar_mode" format="enum">
+            <enum name="interactive" value="0"/>
+            <enum name="indicative" value="1"/>
+        </attr>
+        <attr name="star"/>
+        <attr name="star_count" format="integer"/>
+        <attr name="star_size"/>
+        <attr name="star_margin"/>
+        <attr name="star_tint"/>
+        <attr name="star_appearance"/>
+        <attr name="step_size" format="float"/>
+        <attr name="rating_star_count" format="float"/>
+        <attr name="rating_text" format="string"/>
+        <attr name="rating_text_appearance" format="reference"/>
+        <attr name="rating_text_gravity" format="enum">
+            <enum name="end" value="0"/>
+            <enum name="start" value="1"/>
+            <enum name="top_center" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="StarAppearance">
+        <attr name="star_somatotype" format="enum">
+            <enum name="thin" value="0"/>
+            <enum name="fat" value="1"/>
+        </attr>
+        <attr name="star_hollowed" format="boolean"/>
+        <attr name="star_outline_width" format="dimension"/>
+        <attr name="star_corner_rounded" format="boolean"/>
+        <attr name="star_corner_radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="StatisticsView">
+        <attr name="star"/>
+        <attr name="star_size"/>
+        <attr name="star_margin"/>
+        <attr name="star_tint"/>
+        <attr name="star_appearance"/>
+        
+        <attr name="row_count" format="integer"/>
+        <attr name="row_margin" format="dimension"/>
+
+        <attr name="column_margin" format="dimension"/>
+        <attr name="column_digital_disabled" format="boolean"/>
+        <attr name="column_digital_text_appearance" format="reference"/>
+
+        <attr name="percentage_bar_color" format="color"/>
+        <attr name="percentage_bar_track_color" format="color"/>
+        <attr name="percentage_bar_width" format="dimension"/>
+        <attr name="percentage_bar_height" format="dimension"/>
+        <attr name="percentage_bar_corner_rounded" format="boolean"/>
+        <attr name="percentage_bar_corner_radius" format="dimension"/>
+
+        <attr name="statistics_data" format="string"/>
+    </declare-styleable>
+</resources>
