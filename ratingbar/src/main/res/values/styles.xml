@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RatingBar">
+        <item name="bar_mode">interactive</item>
+        <item name="star_count">5</item>
+        <item name="star_size">@dimen/rating_bar_star_size</item>
+        <item name="star_margin">@dimen/rating_bar_star_margin</item>
+        <item name="star_appearance">@style/StarAppearance</item>
+        <item name="step_size">0.5</item>
+    </style>
+
+    <style name="RatingBar.Small">
+        <item name="star_size">@dimen/rating_bar_small_star_size</item>
+        <item name="star_margin">@dimen/rating_bar_small_star_margin</item>
+    </style>
+
+    <style name="RatingBar.Medium">
+        <item name="star_size">@dimen/rating_bar_medium_star_size</item>
+        <item name="star_margin">@dimen/rating_bar_medium_star_margin</item>
+    </style>
+
+    <style name="StarAppearance">
+        <item name="star_hollowed">false</item>
+        <item name="star_corner_rounded">false</item>
+    </style>
+
+    <style name="StarAppearance.Thin">
+        <item name="star_somatotype">thin</item>
+    </style>
+
+    <style name="StarAppearance.Thin.Rounded">
+        <item name="star_corner_rounded">true</item>
+        <item name="star_corner_radius">@dimen/rating_bar_star_corner_radius</item>
+    </style>
+
+    <style name="StarAppearance.Thin.Hollowed">
+        <item name="star_hollowed">true</item>
+        <item name="star_outline_width">@dimen/rating_bar_star_outline_width</item>
+    </style>
+
+    <style name="StarAppearance.Thin.Hollowed.Rounded">
+        <item name="star_corner_rounded">true</item>
+        <item name="star_corner_radius">@dimen/rating_bar_star_corner_radius</item>
+    </style>
+
+    <style name="StarAppearance.Fat">
+        <item name="star_somatotype">fat</item>
+    </style>
+
+    <style name="StarAppearance.Fat.Hollowed">
+        <item name="star_hollowed">true</item>
+        <item name="star_outline_width">@dimen/rating_bar_star_outline_width</item>
+    </style>
+
+    <style name="StatisticsView">
+        <item name="star_size">@dimen/statistics_view_star_size</item>
+        <item name="star_tint">@color/statistics_view_primary</item>
+        <item name="row_count">5</item>
+        <item name="row_margin">@dimen/statistics_view_row_margin</item>
+        <item name="column_margin">@dimen/statistics_view_column_margin</item>
+        <item name="percentage_bar_color">?colorPrimary</item>
+        <item name="percentage_bar_track_color">@color/statistics_view_primary</item>
+        <item name="percentage_bar_corner_rounded">true</item>
+    </style>
+    <style name="StatisticsViewStarAppearance">
+        <item name="star_somatotype">thin</item>
+        <item name="star_hollowed">false</item>
+        <item name="star_outline_width">@dimen/rating_bar_star_outline_width</item>
+        <item name="star_corner_rounded">false</item>
+        <item name="star_corner_radius">@dimen/rating_bar_star_corner_radius</item>
+    </style>
+    <style name="StatisticsViewDigitalColumnTextAppearance">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/digital_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+    </style>
+</resources>
