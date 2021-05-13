@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button_set_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_data_button_text"/>
+
+        <io.github.vejei.ratingbar.StatisticsView
+            android:id="@+id/statistics_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <io.github.vejei.ratingbar.StatisticsView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:statistics_data="0.8, 0.6, 0.4, 0.2, 0.05"
+            app:row_count="6"/>
+
+        <io.github.vejei.ratingbar.StatisticsView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:statistics_data="0.8, 0.6, 0.4, 0.2, 0.05"
+            app:column_digital_disabled="true"/>
+
+        <io.github.vejei.ratingbar.StatisticsView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:statistics_data="0.8, 0.6, 0.4, 0.2, 0.05"
+            android:layoutDirection="rtl" />
+
+        <io.github.vejei.ratingbar.StatisticsView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:statistics_data="0.8, 0.6, 0.4, 0.2, 0.05"
+            app:percentage_bar_corner_radius="2dp"/>
+
+        <io.github.vejei.ratingbar.StatisticsView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:statistics_data="0.8, 0.6, 0.4, 0.2, 0.05"
+            app:percentage_bar_corner_rounded="false"/>
+
+        <io.github.vejei.ratingbar.StatisticsView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:statistics_data="0.8, 0.6, 0.4, 0.2, 0.05"
+            app:percentage_bar_color="#F29418"
+            app:star_tint="#F29418"/>
+
+        <io.github.vejei.ratingbar.StatisticsView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:statistics_data="0.8, 0.6, 0.4, 0.2, 0.05"
+            app:column_digital_text_appearance="@style/StatisticsViewDigitalTextAppearance"/>
+
+    </LinearLayout>
+
+</ScrollView>
