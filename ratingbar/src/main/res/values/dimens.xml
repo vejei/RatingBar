@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rating_bar_small_star_size">12dp</dimen>
+    <dimen name="rating_bar_small_star_margin">0dp</dimen>
+
+    <dimen name="rating_bar_medium_star_size">36dp</dimen>
+    <dimen name="rating_bar_medium_star_margin">3dp</dimen>
+
+    <dimen name="rating_bar_star_size">48dp</dimen>
+    <dimen name="rating_bar_star_margin">4dp</dimen>
+    <dimen name="rating_bar_star_outline_width">2dp</dimen>
+    <dimen name="rating_bar_star_corner_radius">4dp</dimen>
+
+    <dimen name="statistics_view_star_size">12dp</dimen>
+    <dimen name="statistics_view_row_margin">2dp</dimen>
+    <dimen name="statistics_view_column_margin">2dp</dimen>
+</resources>
